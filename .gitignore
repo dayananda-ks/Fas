@@ -1,0 +1,26 @@
+# Node / frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/.vite/
+
+# Python / backend
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# TensorFlow model files
+backend/model/*.keras
+backend/model/*.h5
+backend/model/*.png
+backend/model/checkpoints/
+
+# Editor / OS
+.vscode/
+.DS_Store
+*.log
